@@ -1,13 +1,7 @@
-import React, { useState } from 'react';
-import axios from '../node_modules/axios/index';
+import NewsList from './components/NewsList';
 
 const App = () => {
-  const [data,setData] = useState(null);
-  return (
-    <div>
-
-    </div>
-  )
+  return <NewsList></NewsList>;
 };
 
 export default App;
